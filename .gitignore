@@ -1,0 +1,58 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*.so
+*.log
+
+# === Django ===
+*.sqlite3
+*.db
+db.sqlite3
+*.pot
+*.pyc
+
+# === Environment Variables ===
+.env
+.env.*
+
+# === Virtual Environments ===
+venv/
+env/
+ENV/
+.venv/
+.python-version
+
+# === IDEs and Editors ===
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# === OS Files ===
+.DS_Store
+Thumbs.db
+
+# === Django Static and Media (optional, if auto-generated) ===
+staticfiles/
+media/
+
+# === Migrations Cache (but NOT migration files) ===
+**/__pycache__/
+*/migrations/__pycache__/
+
+# === Coverage reports ===
+htmlcov/
+.coverage
+.tox/
+.nox/
+
+# === Test Output ===
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# === Logs and reports ===
+*.log
+*.pot
+*.mo
