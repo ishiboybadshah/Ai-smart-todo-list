@@ -21,7 +21,7 @@ from tasks import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('home/', views.home, name='home'),
+    path('', views.home, name='home'),
     path('toggle/<int:task_id>/', views.toggle_complete, name='toggle_complete'),
     path('delete/<int:task_id>/', views.delete_task, name='delete_task'),
      
